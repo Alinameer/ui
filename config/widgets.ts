@@ -6,6 +6,7 @@ import {
   CirclePlayIcon,
   Clock3Icon,
   CloudSunIcon,
+  FlameIcon,
   GoalIcon,
   LayoutDashboardIcon,
   TrophyIcon,
@@ -22,6 +23,9 @@ export interface WidgetCategory {
       name: string;
     }[];
     lg?: {
+      name: string;
+    }[];
+    xl?: {
       name: string;
     }[];
   };
@@ -109,6 +113,48 @@ export const categories: WidgetCategory[] = [
       lg: [{ name: "dashboard-lg-01" }, { name: "dashboard-lg-02" }],
     },
     icon: LayoutDashboardIcon,
+  },
+  {
+    slug: "torch",
+    name: "TORCH",
+    widgets: {
+      sm: [
+        { name: "torch-sm-01" },
+        { name: "torch-sm-02" },
+        { name: "torch-sm-03" },
+        { name: "torch-sm-04" },
+      ],
+      md: [
+        { name: "torch-md-01" },
+        { name: "torch-md-02" },
+        { name: "torch-md-03" },
+        { name: "torch-md-04" },
+        { name: "torch-md-05" },
+        { name: "torch-md-06" },
+      ],
+      lg: [
+        { name: "torch-lg-01" },
+        { name: "torch-lg-02" },
+        { name: "torch-lg-03" },
+        { name: "torch-lg-04" },
+        { name: "torch-lg-05" },
+        { name: "torch-lg-06" },
+        { name: "torch-lg-07" },
+        { name: "torch-lg-08" },
+        { name: "torch-lg-09" },
+      ],
+      xl: [
+        { name: "torch-xl-01" },
+        { name: "torch-xl-02" },
+        { name: "torch-xl-03" },
+        { name: "torch-xl-04" },
+        { name: "torch-xl-05" },
+        { name: "torch-xl-06" },
+        { name: "torch-xl-07" },
+      ],
+    },
+    icon: FlameIcon,
+    isNew: true,
   },
   {
     slug: "media",

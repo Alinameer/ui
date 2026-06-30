@@ -49,6 +49,9 @@ export default async function Page({ params }: PageProps) {
   const lgWidgets = getWidgetsByNames(
     category.widgets.lg?.map((item) => item.name) ?? [],
   );
+  const xlWidgets = getWidgetsByNames(
+    category.widgets.xl?.map((item) => item.name) ?? [],
+  );
 
   const getDescription = () => {
     return `A collection of ${category.name} widgets from Wigggle UI.`;
@@ -78,6 +81,16 @@ export default async function Page({ params }: PageProps) {
       {category.widgets.lg && category.widgets.lg?.length >= 1 && (
         <PageGrid title="lg">
           {lgWidgets.map((widget) => (
+            <WidgetCard key={widget.name} widget={widget}>
+              <WidgetLoader widget={widget} />
+              <WidgetDetails widget={widget} />
+            </WidgetCard>
+          ))}
+        </PageGrid>
+      )}
+      {category.widgets.xl && category.widgets.xl?.length >= 1 && (
+        <PageGrid title="xl">
+          {xlWidgets.map((widget) => (
             <WidgetCard key={widget.name} widget={widget}>
               <WidgetLoader widget={widget} />
               <WidgetDetails widget={widget} />

@@ -1,0 +1,99 @@
+/* ============================================================================
+ * TORCH Widgets — theme tokens (Tailwind v4)
+ * ----------------------------------------------------------------------------
+ * Import this ONCE in your app's global stylesheet, AFTER `@import "tailwindcss";`
+ *
+ *   @import "tailwindcss";
+ *   @import "./torch-widgets/torch-theme.css";
+ *
+ * It registers the color tokens the widgets use (chart-1..5, vercel-*,
+ * productive, destructive, secondary, muted, border, card, foreground) as
+ * Tailwind v4 `@theme` colors so classes like `bg-chart-1`, `text-productive`,
+ * `bg-vercel-blue`, `text-muted-foreground` resolve.
+ *
+ * If your app ALREADY defines these tokens (e.g. it's a shadcn/ui app), you can
+ * skip the @theme block and keep only the `--vercel-*` / `--productive` /
+ * `--chart-*` vars you don't already have.
+ *
+ * Dark mode: the widgets respond to a `.dark` class on a parent (or use the
+ * Widget `theme="dark"` prop which sets data-theme — see README).
+ * ========================================================================== */
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-destructive: var(--destructive);
+  --color-productive: var(--productive);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-vercel-purple: var(--vercel-purple);
+  --color-vercel-yellow: var(--vercel-yellow);
+  --color-vercel-blue: var(--vercel-blue);
+  --color-vercel-teal: var(--vercel-teal);
+  --color-vercel-pink: var(--vercel-pink);
+}
+
+:root {
+  --radius: 0.625rem;
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.145 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.145 0 0);
+  --secondary: oklch(0.97 0 0);
+  --secondary-foreground: oklch(0.205 0 0);
+  --muted: oklch(0.97 0 0);
+  --muted-foreground: oklch(0.556 0 0);
+  --border: oklch(0.922 0 0);
+  --input: oklch(0.922 0 0);
+  --ring: oklch(0.708 0 0);
+  --destructive: oklch(0.577 0.245 27.325); /* Red 600 */
+  --productive: oklch(0.627 0.194 149.214); /* Green 600 */
+  --chart-1: oklch(0.809 0.105 251.813); /* Blue 300 */
+  --chart-2: oklch(0.71 0.14 255);
+  --chart-3: oklch(0.546 0.245 262.881); /* Blue 600 */
+  --chart-4: oklch(0.488 0.243 264.376); /* Blue 700 */
+  --chart-5: oklch(0.424 0.199 265.638); /* Blue 800 */
+  --vercel-yellow: oklch(0.8169 0.1639 75.84);
+  --vercel-purple: oklch(0.5556 0.1829 305.86);
+  --vercel-blue: oklch(0.5787 0.2146 258.04);
+  --vercel-teal: oklch(0.6491 0.1136 181.96);
+  --vercel-pink: oklch(0.6368 0.2131 1.2);
+}
+
+.dark {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.205 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.269 0 0);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.708 0 0);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.556 0 0);
+  --destructive: oklch(0.637 0.237 25.331); /* Red 500 */
+  --productive: oklch(0.627 0.194 149.214); /* Green 600 */
+  --chart-1: oklch(0.809 0.105 251.813);
+  --chart-2: oklch(0.71 0.14 255);
+  --chart-3: oklch(0.546 0.245 262.881);
+  --chart-4: oklch(0.488 0.243 264.376);
+  --chart-5: oklch(0.424 0.199 265.638);
+  --vercel-yellow: oklch(0.8169 0.1639 75.84);
+  --vercel-purple: oklch(0.5556 0.1829 305.86);
+  --vercel-blue: oklch(0.5787 0.2146 258.04);
+  --vercel-teal: oklch(0.6491 0.1136 181.96);
+  --vercel-pink: oklch(0.6368 0.2131 1.2);
+}

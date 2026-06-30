@@ -6,8 +6,12 @@
     {
       "name": "widget",
       "type": "registry:ui",
-      "dependencies": ["class-variance-authority"],
-      "registryDependencies": ["https://wigggle-ui.vercel.app/r/utils.json"],
+      "dependencies": [
+        "class-variance-authority"
+      ],
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/utils.json"
+      ],
       "files": [
         {
           "path": "registry/default/ui/widget.tsx",
@@ -28,8 +32,13 @@
     {
       "name": "avatar",
       "type": "registry:ui",
-      "dependencies": ["@radix-ui/react-avatar", "class-variance-authority"],
-      "registryDependencies": ["https://wigggle-ui.vercel.app/r/utils.json"],
+      "dependencies": [
+        "@radix-ui/react-avatar",
+        "class-variance-authority"
+      ],
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/utils.json"
+      ],
       "files": [
         {
           "path": "registry/default/ui/avatar.tsx",
@@ -40,8 +49,13 @@
     {
       "name": "badge",
       "type": "registry:ui",
-      "dependencies": ["@radix-ui/react-slot", "class-variance-authority"],
-      "registryDependencies": ["https://wigggle-ui.vercel.app/r/utils.json"],
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority"
+      ],
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/utils.json"
+      ],
       "files": [
         {
           "path": "registry/default/ui/badge.tsx",
@@ -52,8 +66,13 @@
     {
       "name": "button",
       "type": "registry:ui",
-      "dependencies": ["@radix-ui/react-slot", "class-variance-authority"],
-      "registryDependencies": ["https://wigggle-ui.vercel.app/r/utils.json"],
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority"
+      ],
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/utils.json"
+      ],
       "files": [
         {
           "path": "registry/default/ui/button.tsx",
@@ -64,7 +83,10 @@
     {
       "name": "carousel",
       "type": "registry:ui",
-      "dependencies": ["embla-carousel-react", "lucide-react"],
+      "dependencies": [
+        "embla-carousel-react",
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/utils.json",
         "https://wigggle-ui.vercel.app/r/button.json"
@@ -79,7 +101,9 @@
     {
       "name": "circular-progress",
       "type": "registry:ui",
-      "registryDependencies": ["https://wigggle-ui.vercel.app/r/utils.json"],
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/utils.json"
+      ],
       "files": [
         {
           "path": "registry/default/ui/circular-progress.tsx",
@@ -90,7 +114,9 @@
     {
       "name": "dialog",
       "type": "registry:ui",
-      "dependencies": ["@radix-ui/react-dialog"],
+      "dependencies": [
+        "@radix-ui/react-dialog"
+      ],
       "files": [
         {
           "path": "registry/default/ui/dialog.tsx",
@@ -101,8 +127,13 @@
     {
       "name": "dropdown-menu",
       "type": "registry:ui",
-      "dependencies": ["@radix-ui/react-dropdown-menu", "lucide-react"],
-      "registryDependencies": ["https://wigggle-ui.vercel.app/r/utils.json"],
+      "dependencies": [
+        "@radix-ui/react-dropdown-menu",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/utils.json"
+      ],
       "files": [
         {
           "path": "registry/default/ui/dropdown-menu.tsx",
@@ -113,8 +144,12 @@
     {
       "name": "input",
       "type": "registry:ui",
-      "dependencies": ["@radix-ui/react-input"],
-      "registryDependencies": ["https://wigggle-ui.vercel.app/r/utils.json"],
+      "dependencies": [
+        "@radix-ui/react-input"
+      ],
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/utils.json"
+      ],
       "files": [
         {
           "path": "registry/default/ui/input.tsx",
@@ -125,7 +160,9 @@
     {
       "name": "label",
       "type": "registry:ui",
-      "dependencies": ["@radix-ui/react-label"],
+      "dependencies": [
+        "@radix-ui/react-label"
+      ],
       "files": [
         {
           "path": "registry/default/ui/label.tsx",
@@ -136,7 +173,9 @@
     {
       "name": "popover",
       "type": "registry:ui",
-      "dependencies": ["@radix-ui/react-popover"],
+      "dependencies": [
+        "@radix-ui/react-popover"
+      ],
       "files": [
         {
           "path": "registry/default/ui/popover.tsx",
@@ -147,8 +186,12 @@
     {
       "name": "progress",
       "type": "registry:ui",
-      "dependencies": ["@radix-ui/react-progress"],
-      "registryDependencies": ["https://wigggle-ui.vercel.app/r/utils.json"],
+      "dependencies": [
+        "@radix-ui/react-progress"
+      ],
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/utils.json"
+      ],
       "files": [
         {
           "path": "registry/default/ui/progress.tsx",
@@ -159,8 +202,13 @@
     {
       "name": "select",
       "type": "registry:ui",
-      "dependencies": ["@radix-ui/react-select", "lucide-react"],
-      "registryDependencies": ["https://wigggle-ui.vercel.app/r/utils.json"],
+      "dependencies": [
+        "@radix-ui/react-select",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/utils.json"
+      ],
       "files": [
         {
           "path": "registry/default/ui/select.tsx",
@@ -171,8 +219,12 @@
     {
       "name": "scroll-area",
       "type": "registry:ui",
-      "dependencies": ["@radix-ui/react-scroll-area"],
-      "registryDependencies": ["https://wigggle-ui.vercel.app/r/utils.json"],
+      "dependencies": [
+        "@radix-ui/react-scroll-area"
+      ],
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/utils.json"
+      ],
       "files": [
         {
           "path": "registry/default/ui/scroll-area.tsx",
@@ -183,8 +235,12 @@
     {
       "name": "separator",
       "type": "registry:ui",
-      "dependencies": ["@radix-ui/react-separator"],
-      "registryDependencies": ["https://wigggle-ui.vercel.app/r/utils.json"],
+      "dependencies": [
+        "@radix-ui/react-separator"
+      ],
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/utils.json"
+      ],
       "files": [
         {
           "path": "registry/default/ui/separator.tsx",
@@ -195,7 +251,9 @@
     {
       "name": "switch",
       "type": "registry:ui",
-      "dependencies": ["@radix-ui/react-switch"],
+      "dependencies": [
+        "@radix-ui/react-switch"
+      ],
       "files": [
         {
           "path": "registry/default/ui/switch.tsx",
@@ -206,7 +264,9 @@
     {
       "name": "tabs",
       "type": "registry:ui",
-      "dependencies": ["@radix-ui/react-tabs"],
+      "dependencies": [
+        "@radix-ui/react-tabs"
+      ],
       "files": [
         {
           "path": "registry/default/ui/tabs.tsx",
@@ -217,7 +277,9 @@
     {
       "name": "textarea",
       "type": "registry:ui",
-      "registryDependencies": ["https://wigggle-ui.vercel.app/r/utils.json"],
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/utils.json"
+      ],
       "files": [
         {
           "path": "registry/default/ui/textarea.tsx",
@@ -228,7 +290,9 @@
     {
       "name": "tooltip",
       "type": "registry:ui",
-      "dependencies": ["@radix-ui/react-tooltip"],
+      "dependencies": [
+        "@radix-ui/react-tooltip"
+      ],
       "files": [
         {
           "path": "registry/default/ui/tooltip.tsx",
@@ -239,7 +303,10 @@
     {
       "name": "item",
       "type": "registry:ui",
-      "dependencies": ["@radix-ui/react-slot", "class-variance-authority"],
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/separator.json"
       ],
@@ -253,7 +320,9 @@
     {
       "name": "wheel-picker",
       "type": "registry:ui",
-      "dependencies": ["@ncdai/react-wheel-picker"],
+      "dependencies": [
+        "@ncdai/react-wheel-picker"
+      ],
       "files": [
         {
           "path": "registry/default/ui/wheel-picker.tsx",
@@ -264,7 +333,10 @@
     {
       "name": "utils",
       "type": "registry:lib",
-      "dependencies": ["clsx", "tailwind-merge"],
+      "dependencies": [
+        "clsx",
+        "tailwind-merge"
+      ],
       "files": [
         {
           "path": "registry/default/lib/utils.ts",
@@ -286,7 +358,9 @@
         }
       ],
       "meta": {
-        "tags": ["calendar"]
+        "tags": [
+          "calendar"
+        ]
       }
     },
     {
@@ -304,7 +378,9 @@
         }
       ],
       "meta": {
-        "tags": ["calendar"]
+        "tags": [
+          "calendar"
+        ]
       }
     },
     {
@@ -322,13 +398,17 @@
         }
       ],
       "meta": {
-        "tags": ["calendar"]
+        "tags": [
+          "calendar"
+        ]
       }
     },
     {
       "name": "calendar-sm-04",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/badge.json",
@@ -342,7 +422,9 @@
         }
       ],
       "meta": {
-        "tags": ["calendar"]
+        "tags": [
+          "calendar"
+        ]
       }
     },
     {
@@ -360,7 +442,9 @@
         }
       ],
       "meta": {
-        "tags": ["calendar"]
+        "tags": [
+          "calendar"
+        ]
       }
     },
     {
@@ -379,13 +463,17 @@
         }
       ],
       "meta": {
-        "tags": ["calendar"]
+        "tags": [
+          "calendar"
+        ]
       }
     },
     {
       "name": "calendar-sm-07",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/label.json",
@@ -399,13 +487,17 @@
         }
       ],
       "meta": {
-        "tags": ["calendar"]
+        "tags": [
+          "calendar"
+        ]
       }
     },
     {
       "name": "calendar-sm-08",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/label.json"
@@ -417,7 +509,9 @@
         }
       ],
       "meta": {
-        "tags": ["calendar"]
+        "tags": [
+          "calendar"
+        ]
       }
     },
     {
@@ -434,7 +528,9 @@
         }
       ],
       "meta": {
-        "tags": ["calendar"]
+        "tags": [
+          "calendar"
+        ]
       }
     },
     {
@@ -451,7 +547,9 @@
         }
       ],
       "meta": {
-        "tags": ["calendar"]
+        "tags": [
+          "calendar"
+        ]
       }
     },
     {
@@ -469,14 +567,18 @@
         }
       ],
       "meta": {
-        "tags": ["calendar"],
+        "tags": [
+          "calendar"
+        ],
         "size": "md"
       }
     },
     {
       "name": "calendar-md-02",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/badge.json",
@@ -489,14 +591,18 @@
         }
       ],
       "meta": {
-        "tags": ["calendar"],
+        "tags": [
+          "calendar"
+        ],
         "size": "md"
       }
     },
     {
       "name": "calendar-md-03",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/button.json",
@@ -509,14 +615,18 @@
         }
       ],
       "meta": {
-        "tags": ["calendar"],
+        "tags": [
+          "calendar"
+        ],
         "size": "md"
       }
     },
     {
       "name": "calendar-md-04",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/label.json",
@@ -530,14 +640,18 @@
         }
       ],
       "meta": {
-        "tags": ["calendar"],
+        "tags": [
+          "calendar"
+        ],
         "size": "md"
       }
     },
     {
       "name": "calendar-md-05",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/label.json",
@@ -551,14 +665,18 @@
         }
       ],
       "meta": {
-        "tags": ["calendar"],
+        "tags": [
+          "calendar"
+        ],
         "size": "md"
       }
     },
     {
       "name": "calendar-md-06",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/label.json",
@@ -571,14 +689,18 @@
         }
       ],
       "meta": {
-        "tags": ["calendar"],
+        "tags": [
+          "calendar"
+        ],
         "size": "md"
       }
     },
     {
       "name": "calendar-lg-01",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/button.json",
@@ -593,7 +715,9 @@
         }
       ],
       "meta": {
-        "tags": ["calendar"],
+        "tags": [
+          "calendar"
+        ],
         "size": "lg"
       }
     },
@@ -612,14 +736,18 @@
         }
       ],
       "meta": {
-        "tags": ["calendar"],
+        "tags": [
+          "calendar"
+        ],
         "size": "lg"
       }
     },
     {
       "name": "calendar-lg-03",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/label.json",
@@ -633,7 +761,9 @@
         }
       ],
       "meta": {
-        "tags": ["calendar"],
+        "tags": [
+          "calendar"
+        ],
         "size": "lg"
       }
     },
@@ -652,14 +782,18 @@
         }
       ],
       "meta": {
-        "tags": ["calendar"],
+        "tags": [
+          "calendar"
+        ],
         "size": "lg"
       }
     },
     {
       "name": "calendar-lg-05",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/label.json",
@@ -673,14 +807,18 @@
         }
       ],
       "meta": {
-        "tags": ["calendar"],
+        "tags": [
+          "calendar"
+        ],
         "size": "lg"
       }
     },
     {
       "name": "calendar-lg-06",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/label.json",
@@ -695,14 +833,18 @@
         }
       ],
       "meta": {
-        "tags": ["calendar"],
+        "tags": [
+          "calendar"
+        ],
         "size": "lg"
       }
     },
     {
       "name": "clock-sm-01",
       "type": "registry:component",
-      "registryDependencies": ["https://wigggle-ui.vercel.app/r/widget.json"],
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/widget.json"
+      ],
       "files": [
         {
           "path": "registry/default/widgets/clock/sm/clock-01.tsx",
@@ -710,14 +852,18 @@
         }
       ],
       "meta": {
-        "tags": ["clock"],
+        "tags": [
+          "clock"
+        ],
         "size": "sm"
       }
     },
     {
       "name": "clock-sm-02",
       "type": "registry:component",
-      "registryDependencies": ["https://wigggle-ui.vercel.app/r/widget.json"],
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/widget.json"
+      ],
       "files": [
         {
           "path": "registry/default/widgets/clock/sm/clock-02.tsx",
@@ -725,14 +871,18 @@
         }
       ],
       "meta": {
-        "tags": ["clock"],
+        "tags": [
+          "clock"
+        ],
         "size": "sm"
       }
     },
     {
       "name": "clock-sm-03",
       "type": "registry:component",
-      "registryDependencies": ["https://wigggle-ui.vercel.app/r/widget.json"],
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/widget.json"
+      ],
       "files": [
         {
           "path": "registry/default/widgets/clock/sm/clock-03.tsx",
@@ -740,14 +890,18 @@
         }
       ],
       "meta": {
-        "tags": ["clock"],
+        "tags": [
+          "clock"
+        ],
         "size": "sm"
       }
     },
     {
       "name": "clock-sm-04",
       "type": "registry:component",
-      "registryDependencies": ["https://wigggle-ui.vercel.app/r/widget.json"],
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/widget.json"
+      ],
       "files": [
         {
           "path": "registry/default/widgets/clock/sm/clock-04.tsx",
@@ -755,14 +909,18 @@
         }
       ],
       "meta": {
-        "tags": ["clock"],
+        "tags": [
+          "clock"
+        ],
         "size": "sm"
       }
     },
     {
       "name": "clock-sm-05",
       "type": "registry:component",
-      "registryDependencies": ["https://wigggle-ui.vercel.app/r/widget.json"],
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/widget.json"
+      ],
       "files": [
         {
           "path": "registry/default/widgets/clock/sm/clock-05.tsx",
@@ -770,14 +928,18 @@
         }
       ],
       "meta": {
-        "tags": ["clock"],
+        "tags": [
+          "clock"
+        ],
         "size": "sm"
       }
     },
     {
       "name": "clock-sm-06",
       "type": "registry:component",
-      "registryDependencies": ["https://wigggle-ui.vercel.app/r/widget.json"],
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/widget.json"
+      ],
       "files": [
         {
           "path": "registry/default/widgets/clock/sm/clock-06.tsx",
@@ -785,14 +947,18 @@
         }
       ],
       "meta": {
-        "tags": ["clock"],
+        "tags": [
+          "clock"
+        ],
         "size": "sm"
       }
     },
     {
       "name": "clock-sm-07",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/separator.json",
@@ -805,7 +971,9 @@
         }
       ],
       "meta": {
-        "tags": ["clock"],
+        "tags": [
+          "clock"
+        ],
         "size": "sm"
       }
     },
@@ -823,7 +991,9 @@
         }
       ],
       "meta": {
-        "tags": ["clock"],
+        "tags": [
+          "clock"
+        ],
         "size": "sm"
       }
     },
@@ -841,14 +1011,18 @@
         }
       ],
       "meta": {
-        "tags": ["clock"],
+        "tags": [
+          "clock"
+        ],
         "size": "sm"
       }
     },
     {
       "name": "clock-sm-10",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/switch.json",
@@ -861,14 +1035,18 @@
         }
       ],
       "meta": {
-        "tags": ["clock"],
+        "tags": [
+          "clock"
+        ],
         "size": "sm"
       }
     },
     {
       "name": "clock-sm-11",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/label.json",
@@ -881,14 +1059,18 @@
         }
       ],
       "meta": {
-        "tags": ["clock"],
+        "tags": [
+          "clock"
+        ],
         "size": "sm"
       }
     },
     {
       "name": "clock-sm-12",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/label.json",
@@ -901,14 +1083,18 @@
         }
       ],
       "meta": {
-        "tags": ["clock"],
+        "tags": [
+          "clock"
+        ],
         "size": "sm"
       }
     },
     {
       "name": "clock-sm-13",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/button.json",
@@ -921,7 +1107,9 @@
         }
       ],
       "meta": {
-        "tags": ["clock"],
+        "tags": [
+          "clock"
+        ],
         "size": "sm",
         "credits": [
           {
@@ -949,7 +1137,9 @@
         }
       ],
       "meta": {
-        "tags": ["dashboard"]
+        "tags": [
+          "dashboard"
+        ]
       }
     },
     {
@@ -960,7 +1150,9 @@
         "https://wigggle-ui.vercel.app/r/chart.json",
         "https://wigggle-ui.vercel.app/r/label.json"
       ],
-      "dependencies": ["recharts"],
+      "dependencies": [
+        "recharts"
+      ],
       "files": [
         {
           "path": "registry/default/widgets/dashboard/sm/dashboard-02.tsx",
@@ -968,7 +1160,9 @@
         }
       ],
       "meta": {
-        "tags": ["dashboard"]
+        "tags": [
+          "dashboard"
+        ]
       }
     },
     {
@@ -978,7 +1172,9 @@
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/table.json"
       ],
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "files": [
         {
           "path": "registry/default/widgets/dashboard/sm/dashboard-03.tsx",
@@ -986,7 +1182,9 @@
         }
       ],
       "meta": {
-        "tags": ["dashboard"]
+        "tags": [
+          "dashboard"
+        ]
       }
     },
     {
@@ -996,7 +1194,9 @@
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/chart.json"
       ],
-      "dependencies": ["recharts"],
+      "dependencies": [
+        "recharts"
+      ],
       "files": [
         {
           "path": "registry/default/widgets/dashboard/sm/dashboard-04.tsx",
@@ -1004,7 +1204,9 @@
         }
       ],
       "meta": {
-        "tags": ["dashboard"]
+        "tags": [
+          "dashboard"
+        ]
       }
     },
     {
@@ -1016,7 +1218,9 @@
         "https://wigggle-ui.vercel.app/r/button.json",
         "https://wigggle-ui.vercel.app/r/label.json"
       ],
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "files": [
         {
           "path": "registry/default/widgets/dashboard/sm/dashboard-05.tsx",
@@ -1024,7 +1228,9 @@
         }
       ],
       "meta": {
-        "tags": ["dashboard"]
+        "tags": [
+          "dashboard"
+        ]
       }
     },
     {
@@ -1035,7 +1241,9 @@
         "https://wigggle-ui.vercel.app/r/textarea.json",
         "https://wigggle-ui.vercel.app/r/button.json"
       ],
-      "dependencies": ["recharts"],
+      "dependencies": [
+        "recharts"
+      ],
       "files": [
         {
           "path": "registry/default/widgets/dashboard/sm/dashboard-06.tsx",
@@ -1043,7 +1251,9 @@
         }
       ],
       "meta": {
-        "tags": ["dashboard"]
+        "tags": [
+          "dashboard"
+        ]
       }
     },
     {
@@ -1053,7 +1263,9 @@
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/table.json"
       ],
-      "dependencies": ["recharts"],
+      "dependencies": [
+        "recharts"
+      ],
       "files": [
         {
           "path": "registry/default/widgets/dashboard/md/dashboard-01.tsx",
@@ -1061,7 +1273,9 @@
         }
       ],
       "meta": {
-        "tags": ["dashboard"],
+        "tags": [
+          "dashboard"
+        ],
         "size": "md"
       }
     },
@@ -1076,7 +1290,9 @@
         "https://wigggle-ui.vercel.app/r/button.json",
         "https://wigggle-ui.vercel.app/r/dropdown-menu.json"
       ],
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "files": [
         {
           "path": "registry/default/widgets/dashboard/md/dashboard-02.tsx",
@@ -1084,7 +1300,9 @@
         }
       ],
       "meta": {
-        "tags": ["dashboard"],
+        "tags": [
+          "dashboard"
+        ],
         "size": "md"
       }
     },
@@ -1097,7 +1315,10 @@
         "https://wigggle-ui.vercel.app/r/chart.json",
         "https://wigggle-ui.vercel.app/r/button.json"
       ],
-      "dependencies": ["recharts", "lucide-react"],
+      "dependencies": [
+        "recharts",
+        "lucide-react"
+      ],
       "files": [
         {
           "path": "registry/default/widgets/dashboard/lg/dashboard-01.tsx",
@@ -1105,7 +1326,9 @@
         }
       ],
       "meta": {
-        "tags": ["dashboard"],
+        "tags": [
+          "dashboard"
+        ],
         "size": "lg"
       }
     },
@@ -1118,7 +1341,10 @@
         "https://wigggle-ui.vercel.app/r/select.json",
         "https://wigggle-ui.vercel.app/r/chart.json"
       ],
-      "dependencies": ["recharts", "lucide-react"],
+      "dependencies": [
+        "recharts",
+        "lucide-react"
+      ],
       "files": [
         {
           "path": "registry/default/widgets/dashboard/lg/dashboard-02.tsx",
@@ -1126,14 +1352,639 @@
         }
       ],
       "meta": {
-        "tags": ["dashboard"],
+        "tags": [
+          "dashboard"
+        ],
         "size": "lg"
+      }
+    },
+    {
+      "name": "torch-sm-01",
+      "type": "registry:component",
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/widget.json",
+        "https://wigggle-ui.vercel.app/r/label.json",
+        "https://wigggle-ui.vercel.app/r/chart.json",
+        "https://wigggle-ui.vercel.app/r/utils.json"
+      ],
+      "files": [
+        {
+          "path": "registry/default/widgets/torch/sm/torch-01.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "torch",
+          "dashboard",
+          "chart"
+        ],
+        "size": "sm"
+      }
+    },
+    {
+      "name": "torch-sm-02",
+      "type": "registry:component",
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/widget.json",
+        "https://wigggle-ui.vercel.app/r/chart.json",
+        "https://wigggle-ui.vercel.app/r/utils.json"
+      ],
+      "files": [
+        {
+          "path": "registry/default/widgets/torch/sm/torch-02.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "torch",
+          "dashboard",
+          "chart"
+        ],
+        "size": "sm"
+      }
+    },
+    {
+      "name": "torch-sm-03",
+      "type": "registry:component",
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/widget.json",
+        "https://wigggle-ui.vercel.app/r/chart.json",
+        "https://wigggle-ui.vercel.app/r/utils.json"
+      ],
+      "files": [
+        {
+          "path": "registry/default/widgets/torch/sm/torch-03.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "torch",
+          "dashboard",
+          "chart"
+        ],
+        "size": "sm"
+      }
+    },
+    {
+      "name": "torch-sm-04",
+      "type": "registry:component",
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/widget.json",
+        "https://wigggle-ui.vercel.app/r/label.json",
+        "https://wigggle-ui.vercel.app/r/chart.json",
+        "https://wigggle-ui.vercel.app/r/utils.json"
+      ],
+      "files": [
+        {
+          "path": "registry/default/widgets/torch/sm/torch-04.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "torch",
+          "dashboard",
+          "chart"
+        ],
+        "size": "sm"
+      }
+    },
+    {
+      "name": "torch-md-01",
+      "type": "registry:component",
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/widget.json",
+        "https://wigggle-ui.vercel.app/r/label.json",
+        "https://wigggle-ui.vercel.app/r/chart.json",
+        "https://wigggle-ui.vercel.app/r/utils.json"
+      ],
+      "files": [
+        {
+          "path": "registry/default/widgets/torch/md/torch-01.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "torch",
+          "dashboard",
+          "chart"
+        ],
+        "size": "md"
+      }
+    },
+    {
+      "name": "torch-md-02",
+      "type": "registry:component",
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/widget.json",
+        "https://wigggle-ui.vercel.app/r/label.json",
+        "https://wigggle-ui.vercel.app/r/chart.json",
+        "https://wigggle-ui.vercel.app/r/utils.json"
+      ],
+      "files": [
+        {
+          "path": "registry/default/widgets/torch/md/torch-02.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "torch",
+          "dashboard",
+          "chart"
+        ],
+        "size": "md"
+      }
+    },
+    {
+      "name": "torch-md-03",
+      "type": "registry:component",
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/widget.json",
+        "https://wigggle-ui.vercel.app/r/label.json",
+        "https://wigggle-ui.vercel.app/r/chart.json",
+        "https://wigggle-ui.vercel.app/r/utils.json"
+      ],
+      "files": [
+        {
+          "path": "registry/default/widgets/torch/md/torch-03.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "torch",
+          "dashboard",
+          "chart"
+        ],
+        "size": "md"
+      }
+    },
+    {
+      "name": "torch-md-04",
+      "type": "registry:component",
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/widget.json",
+        "https://wigggle-ui.vercel.app/r/label.json",
+        "https://wigggle-ui.vercel.app/r/chart.json",
+        "https://wigggle-ui.vercel.app/r/utils.json"
+      ],
+      "files": [
+        {
+          "path": "registry/default/widgets/torch/md/torch-04.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "torch",
+          "dashboard",
+          "chart"
+        ],
+        "size": "md"
+      }
+    },
+    {
+      "name": "torch-lg-01",
+      "type": "registry:component",
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/widget.json",
+        "https://wigggle-ui.vercel.app/r/label.json",
+        "https://wigggle-ui.vercel.app/r/chart.json",
+        "https://wigggle-ui.vercel.app/r/select.json",
+        "https://wigggle-ui.vercel.app/r/utils.json"
+      ],
+      "files": [
+        {
+          "path": "registry/default/widgets/torch/lg/torch-01.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "torch",
+          "dashboard",
+          "chart"
+        ],
+        "size": "lg"
+      }
+    },
+    {
+      "name": "torch-lg-02",
+      "type": "registry:component",
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/widget.json",
+        "https://wigggle-ui.vercel.app/r/label.json",
+        "https://wigggle-ui.vercel.app/r/chart.json",
+        "https://wigggle-ui.vercel.app/r/button.json",
+        "https://wigggle-ui.vercel.app/r/utils.json"
+      ],
+      "files": [
+        {
+          "path": "registry/default/widgets/torch/lg/torch-02.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "torch",
+          "dashboard",
+          "chart"
+        ],
+        "size": "lg"
+      }
+    },
+    {
+      "name": "torch-lg-03",
+      "type": "registry:component",
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/widget.json",
+        "https://wigggle-ui.vercel.app/r/label.json",
+        "https://wigggle-ui.vercel.app/r/chart.json",
+        "https://wigggle-ui.vercel.app/r/utils.json"
+      ],
+      "files": [
+        {
+          "path": "registry/default/widgets/torch/lg/torch-03.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "torch",
+          "dashboard",
+          "chart"
+        ],
+        "size": "lg"
+      }
+    },
+    {
+      "name": "torch-lg-04",
+      "type": "registry:component",
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/widget.json",
+        "https://wigggle-ui.vercel.app/r/label.json",
+        "https://wigggle-ui.vercel.app/r/chart.json",
+        "https://wigggle-ui.vercel.app/r/table.json",
+        "https://wigggle-ui.vercel.app/r/utils.json"
+      ],
+      "files": [
+        {
+          "path": "registry/default/widgets/torch/lg/torch-04.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "torch",
+          "dashboard",
+          "chart"
+        ],
+        "size": "lg"
+      }
+    },
+    {
+      "name": "torch-xl-01",
+      "type": "registry:component",
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/widget.json",
+        "https://wigggle-ui.vercel.app/r/label.json",
+        "https://wigggle-ui.vercel.app/r/chart.json",
+        "https://wigggle-ui.vercel.app/r/separator.json",
+        "https://wigggle-ui.vercel.app/r/utils.json"
+      ],
+      "files": [
+        {
+          "path": "registry/default/widgets/torch/xl/torch-01.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "torch",
+          "dashboard",
+          "chart"
+        ],
+        "size": "xl"
+      }
+    },
+    {
+      "name": "torch-xl-02",
+      "type": "registry:component",
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/widget.json",
+        "https://wigggle-ui.vercel.app/r/label.json",
+        "https://wigggle-ui.vercel.app/r/chart.json",
+        "https://wigggle-ui.vercel.app/r/separator.json",
+        "https://wigggle-ui.vercel.app/r/utils.json"
+      ],
+      "files": [
+        {
+          "path": "registry/default/widgets/torch/xl/torch-02.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "torch",
+          "dashboard",
+          "chart"
+        ],
+        "size": "xl"
+      }
+    },
+    {
+      "name": "torch-xl-03",
+      "type": "registry:component",
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/widget.json",
+        "https://wigggle-ui.vercel.app/r/label.json",
+        "https://wigggle-ui.vercel.app/r/separator.json",
+        "https://wigggle-ui.vercel.app/r/utils.json"
+      ],
+      "files": [
+        {
+          "path": "registry/default/widgets/torch/xl/torch-03.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "torch",
+          "dashboard",
+          "chart"
+        ],
+        "size": "xl"
+      }
+    },
+    {
+      "name": "torch-xl-04",
+      "type": "registry:component",
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/widget.json",
+        "https://wigggle-ui.vercel.app/r/label.json",
+        "https://wigggle-ui.vercel.app/r/chart.json",
+        "https://wigggle-ui.vercel.app/r/separator.json"
+      ],
+      "files": [
+        {
+          "path": "registry/default/widgets/torch/xl/torch-04.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "torch",
+          "dashboard",
+          "chart"
+        ],
+        "size": "xl"
+      }
+    },
+    {
+      "name": "torch-xl-05",
+      "type": "registry:component",
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/widget.json",
+        "https://wigggle-ui.vercel.app/r/label.json",
+        "https://wigggle-ui.vercel.app/r/chart.json"
+      ],
+      "files": [
+        {
+          "path": "registry/default/widgets/torch/xl/torch-05.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "torch",
+          "dashboard",
+          "chart"
+        ],
+        "size": "xl"
+      }
+    },
+    {
+      "name": "torch-xl-06",
+      "type": "registry:component",
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/widget.json",
+        "https://wigggle-ui.vercel.app/r/label.json",
+        "https://wigggle-ui.vercel.app/r/chart.json",
+        "https://wigggle-ui.vercel.app/r/separator.json",
+        "https://wigggle-ui.vercel.app/r/utils.json"
+      ],
+      "files": [
+        {
+          "path": "registry/default/widgets/torch/xl/torch-06.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "torch",
+          "dashboard",
+          "chart"
+        ],
+        "size": "xl"
+      }
+    },
+    {
+      "name": "torch-lg-05",
+      "type": "registry:component",
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/widget.json",
+        "https://wigggle-ui.vercel.app/r/label.json",
+        "https://wigggle-ui.vercel.app/r/chart.json"
+      ],
+      "files": [
+        {
+          "path": "registry/default/widgets/torch/lg/torch-05.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "torch",
+          "dashboard",
+          "chart"
+        ],
+        "size": "lg"
+      }
+    },
+    {
+      "name": "torch-lg-06",
+      "type": "registry:component",
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/widget.json",
+        "https://wigggle-ui.vercel.app/r/label.json",
+        "https://wigggle-ui.vercel.app/r/chart.json",
+        "https://wigggle-ui.vercel.app/r/separator.json"
+      ],
+      "files": [
+        {
+          "path": "registry/default/widgets/torch/lg/torch-06.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "torch",
+          "dashboard",
+          "chart"
+        ],
+        "size": "lg"
+      }
+    },
+    {
+      "name": "torch-lg-07",
+      "type": "registry:component",
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/widget.json",
+        "https://wigggle-ui.vercel.app/r/label.json",
+        "https://wigggle-ui.vercel.app/r/chart.json",
+        "https://wigggle-ui.vercel.app/r/separator.json"
+      ],
+      "files": [
+        {
+          "path": "registry/default/widgets/torch/lg/torch-07.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "torch",
+          "dashboard",
+          "chart"
+        ],
+        "size": "lg"
+      }
+    },
+    {
+      "name": "torch-lg-08",
+      "type": "registry:component",
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/widget.json",
+        "https://wigggle-ui.vercel.app/r/label.json",
+        "https://wigggle-ui.vercel.app/r/chart.json"
+      ],
+      "files": [
+        {
+          "path": "registry/default/widgets/torch/lg/torch-08.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "torch",
+          "dashboard",
+          "chart"
+        ],
+        "size": "lg"
+      }
+    },
+    {
+      "name": "torch-md-05",
+      "type": "registry:component",
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/widget.json",
+        "https://wigggle-ui.vercel.app/r/chart.json"
+      ],
+      "files": [
+        {
+          "path": "registry/default/widgets/torch/md/torch-05.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "torch",
+          "dashboard",
+          "chart"
+        ],
+        "size": "md"
+      }
+    },
+    {
+      "name": "torch-md-06",
+      "type": "registry:component",
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/widget.json",
+        "https://wigggle-ui.vercel.app/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "registry/default/widgets/torch/md/torch-06.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "torch",
+          "dashboard",
+          "chart"
+        ],
+        "size": "md"
+      }
+    },
+    {
+      "name": "torch-lg-09",
+      "type": "registry:component",
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/widget.json",
+        "https://wigggle-ui.vercel.app/r/label.json",
+        "https://wigggle-ui.vercel.app/r/chart.json",
+        "https://wigggle-ui.vercel.app/r/utils.json"
+      ],
+      "files": [
+        {
+          "path": "registry/default/widgets/torch/lg/torch-09.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "torch",
+          "dashboard",
+          "chart"
+        ],
+        "size": "lg"
+      }
+    },
+    {
+      "name": "torch-xl-07",
+      "type": "registry:component",
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/widget.json",
+        "https://wigggle-ui.vercel.app/r/label.json",
+        "https://wigggle-ui.vercel.app/r/chart.json",
+        "https://wigggle-ui.vercel.app/r/utils.json"
+      ],
+      "files": [
+        {
+          "path": "registry/default/widgets/torch/xl/torch-07.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "tags": [
+          "torch",
+          "dashboard",
+          "chart"
+        ],
+        "size": "xl"
       }
     },
     {
       "name": "media-sm-01",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/avatar.json",
@@ -1148,7 +1999,9 @@
         }
       ],
       "meta": {
-        "tags": ["media"],
+        "tags": [
+          "media"
+        ],
         "size": "sm",
         "credits": [
           {
@@ -1163,7 +2016,9 @@
     {
       "name": "media-sm-02",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/avatar.json",
@@ -1178,7 +2033,9 @@
         }
       ],
       "meta": {
-        "tags": ["media"],
+        "tags": [
+          "media"
+        ],
         "size": "sm",
         "credits": [
           {
@@ -1193,7 +2050,9 @@
     {
       "name": "media-sm-03",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/audio-player.json",
@@ -1207,7 +2066,9 @@
         }
       ],
       "meta": {
-        "tags": ["media"],
+        "tags": [
+          "media"
+        ],
         "size": "sm",
         "credits": [
           {
@@ -1222,7 +2083,9 @@
     {
       "name": "media-sm-04",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/audio-player.json",
@@ -1236,7 +2099,9 @@
         }
       ],
       "meta": {
-        "tags": ["media"],
+        "tags": [
+          "media"
+        ],
         "size": "sm",
         "credits": [
           {
@@ -1251,7 +2116,9 @@
     {
       "name": "media-sm-05",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/button.json"
@@ -1263,14 +2130,18 @@
         }
       ],
       "meta": {
-        "tags": ["media"],
+        "tags": [
+          "media"
+        ],
         "size": "sm"
       }
     },
     {
       "name": "media-sm-06",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/button.json"
@@ -1282,14 +2153,18 @@
         }
       ],
       "meta": {
-        "tags": ["media"],
+        "tags": [
+          "media"
+        ],
         "size": "sm"
       }
     },
     {
       "name": "media-sm-07",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/button.json"
@@ -1301,14 +2176,18 @@
         }
       ],
       "meta": {
-        "tags": ["media"],
+        "tags": [
+          "media"
+        ],
         "size": "sm"
       }
     },
     {
       "name": "media-sm-08",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/label.json",
@@ -1321,14 +2200,18 @@
         }
       ],
       "meta": {
-        "tags": ["media"],
+        "tags": [
+          "media"
+        ],
         "size": "sm"
       }
     },
     {
       "name": "media-md-01",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/audio-player.json",
@@ -1343,7 +2226,9 @@
         }
       ],
       "meta": {
-        "tags": ["media"],
+        "tags": [
+          "media"
+        ],
         "size": "md",
         "credits": [
           {
@@ -1358,7 +2243,9 @@
     {
       "name": "media-md-02",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/audio-player.json",
@@ -1372,7 +2259,9 @@
         }
       ],
       "meta": {
-        "tags": ["media"],
+        "tags": [
+          "media"
+        ],
         "size": "md",
         "credits": [
           {
@@ -1387,7 +2276,9 @@
     {
       "name": "media-md-03",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/audio-player.json",
@@ -1401,7 +2292,9 @@
         }
       ],
       "meta": {
-        "tags": ["media"],
+        "tags": [
+          "media"
+        ],
         "size": "md",
         "credits": [
           {
@@ -1416,7 +2309,9 @@
     {
       "name": "media-md-04",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/carousel.json",
@@ -1429,7 +2324,9 @@
         }
       ],
       "meta": {
-        "tags": ["media"],
+        "tags": [
+          "media"
+        ],
         "size": "md",
         "credits": [
           {
@@ -1444,7 +2341,9 @@
     {
       "name": "media-md-05",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/audio-player.json",
@@ -1458,7 +2357,9 @@
         }
       ],
       "meta": {
-        "tags": ["media"],
+        "tags": [
+          "media"
+        ],
         "size": "md",
         "credits": [
           {
@@ -1478,7 +2379,9 @@
         "https://wigggle-ui.vercel.app/r/utils.json",
         "https://wigggle-ui.vercel.app/r/label.json"
       ],
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "files": [
         {
           "path": "registry/default/widgets/productivity/sm/productivity-01.tsx",
@@ -1486,7 +2389,9 @@
         }
       ],
       "meta": {
-        "tags": ["productivity"],
+        "tags": [
+          "productivity"
+        ],
         "size": "sm"
       }
     },
@@ -1507,7 +2412,9 @@
         }
       ],
       "meta": {
-        "tags": ["productivity"],
+        "tags": [
+          "productivity"
+        ],
         "size": "sm"
       }
     },
@@ -1519,7 +2426,9 @@
         "https://wigggle-ui.vercel.app/r/label.json",
         "https://wigggle-ui.vercel.app/r/button.json"
       ],
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "files": [
         {
           "path": "registry/default/widgets/productivity/sm/productivity-03.tsx",
@@ -1527,7 +2436,9 @@
         }
       ],
       "meta": {
-        "tags": ["productivity"],
+        "tags": [
+          "productivity"
+        ],
         "size": "sm"
       }
     },
@@ -1548,7 +2459,9 @@
         }
       ],
       "meta": {
-        "tags": ["productivity"],
+        "tags": [
+          "productivity"
+        ],
         "size": "sm"
       }
     },
@@ -1561,7 +2474,9 @@
         "https://wigggle-ui.vercel.app/r/label.json",
         "https://wigggle-ui.vercel.app/r/utils.json"
       ],
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "files": [
         {
           "path": "registry/default/widgets/productivity/sm/productivity-05.tsx",
@@ -1569,7 +2484,9 @@
         }
       ],
       "meta": {
-        "tags": ["productivity"],
+        "tags": [
+          "productivity"
+        ],
         "size": "sm"
       }
     },
@@ -1580,7 +2497,9 @@
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/label.json"
       ],
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "files": [
         {
           "path": "registry/default/widgets/productivity/sm/productivity-06.tsx",
@@ -1588,7 +2507,9 @@
         }
       ],
       "meta": {
-        "tags": ["productivity"],
+        "tags": [
+          "productivity"
+        ],
         "size": "sm"
       }
     },
@@ -1600,7 +2521,9 @@
         "https://wigggle-ui.vercel.app/r/separator.json",
         "https://wigggle-ui.vercel.app/r/badge.json"
       ],
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "files": [
         {
           "path": "registry/default/widgets/productivity/sm/productivity-07.tsx",
@@ -1608,7 +2531,9 @@
         }
       ],
       "meta": {
-        "tags": ["productivity"],
+        "tags": [
+          "productivity"
+        ],
         "size": "sm"
       }
     },
@@ -1621,7 +2546,9 @@
         "https://wigggle-ui.vercel.app/r/label.json",
         "https://wigggle-ui.vercel.app/r/icons.json"
       ],
-      "dependencies": ["recharts"],
+      "dependencies": [
+        "recharts"
+      ],
       "files": [
         {
           "path": "registry/default/widgets/productivity/md/productivity-01.tsx",
@@ -1629,7 +2556,9 @@
         }
       ],
       "meta": {
-        "tags": ["productivity"],
+        "tags": [
+          "productivity"
+        ],
         "size": "md"
       }
     },
@@ -1641,7 +2570,9 @@
         "https://wigggle-ui.vercel.app/r/label.json",
         "https://wigggle-ui.vercel.app/r/utils.json"
       ],
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "files": [
         {
           "path": "registry/default/widgets/productivity/md/productivity-02.tsx",
@@ -1649,7 +2580,9 @@
         }
       ],
       "meta": {
-        "tags": ["productivity"],
+        "tags": [
+          "productivity"
+        ],
         "size": "md"
       }
     },
@@ -1660,7 +2593,10 @@
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/label.json"
       ],
-      "dependencies": ["lucide-react", "recharts"],
+      "dependencies": [
+        "lucide-react",
+        "recharts"
+      ],
       "files": [
         {
           "path": "registry/default/widgets/productivity/md/productivity-03.tsx",
@@ -1668,7 +2604,9 @@
         }
       ],
       "meta": {
-        "tags": ["productivity"],
+        "tags": [
+          "productivity"
+        ],
         "size": "md"
       }
     },
@@ -1687,7 +2625,9 @@
         }
       ],
       "meta": {
-        "tags": ["productivity"],
+        "tags": [
+          "productivity"
+        ],
         "size": "md"
       }
     },
@@ -1705,7 +2645,9 @@
         }
       ],
       "meta": {
-        "tags": ["sports"],
+        "tags": [
+          "sports"
+        ],
         "size": "sm"
       }
     },
@@ -1724,7 +2666,9 @@
         }
       ],
       "meta": {
-        "tags": ["sports"],
+        "tags": [
+          "sports"
+        ],
         "size": "sm"
       }
     },
@@ -1742,7 +2686,9 @@
         }
       ],
       "meta": {
-        "tags": ["sports"],
+        "tags": [
+          "sports"
+        ],
         "size": "sm"
       }
     },
@@ -1760,7 +2706,9 @@
         }
       ],
       "meta": {
-        "tags": ["sports"],
+        "tags": [
+          "sports"
+        ],
         "size": "sm"
       }
     },
@@ -1778,7 +2726,9 @@
         }
       ],
       "meta": {
-        "tags": ["sports"],
+        "tags": [
+          "sports"
+        ],
         "size": "sm"
       }
     },
@@ -1797,7 +2747,9 @@
         }
       ],
       "meta": {
-        "tags": ["sports"],
+        "tags": [
+          "sports"
+        ],
         "size": "sm"
       }
     },
@@ -1817,15 +2769,21 @@
         }
       ],
       "meta": {
-        "tags": ["sports"],
+        "tags": [
+          "sports"
+        ],
         "size": "sm"
       }
     },
     {
       "name": "stock-sm-01",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
-      "registryDependencies": ["https://wigggle-ui.vercel.app/r/widget.json"],
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/widget.json"
+      ],
       "files": [
         {
           "path": "registry/default/widgets/stocks/sm/stock-01.tsx",
@@ -1833,14 +2791,18 @@
         }
       ],
       "meta": {
-        "tags": ["stocks"],
+        "tags": [
+          "stocks"
+        ],
         "size": "sm"
       }
     },
     {
       "name": "stock-sm-02",
       "type": "registry:component",
-      "registryDependencies": ["https://wigggle-ui.vercel.app/r/widget.json"],
+      "registryDependencies": [
+        "https://wigggle-ui.vercel.app/r/widget.json"
+      ],
       "files": [
         {
           "path": "registry/default/widgets/stocks/sm/stock-02.tsx",
@@ -1848,14 +2810,18 @@
         }
       ],
       "meta": {
-        "tags": ["stocks"],
+        "tags": [
+          "stocks"
+        ],
         "size": "sm"
       }
     },
     {
       "name": "stock-sm-03",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/label.json",
@@ -1868,14 +2834,19 @@
         }
       ],
       "meta": {
-        "tags": ["stocks"],
+        "tags": [
+          "stocks"
+        ],
         "size": "sm"
       }
     },
     {
       "name": "stock-sm-04",
       "type": "registry:component",
-      "dependencies": ["lucide-react", "recharts"],
+      "dependencies": [
+        "lucide-react",
+        "recharts"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/label.json",
@@ -1888,7 +2859,9 @@
         }
       ],
       "meta": {
-        "tags": ["stocks"],
+        "tags": [
+          "stocks"
+        ],
         "size": "sm"
       }
     },
@@ -1908,14 +2881,19 @@
         }
       ],
       "meta": {
-        "tags": ["stocks"],
+        "tags": [
+          "stocks"
+        ],
         "size": "sm"
       }
     },
     {
       "name": "stock-sm-06",
       "type": "registry:component",
-      "dependencies": ["lucide-react", "recharts"],
+      "dependencies": [
+        "lucide-react",
+        "recharts"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/chart.json"
@@ -1927,14 +2905,18 @@
         }
       ],
       "meta": {
-        "tags": ["stocks"],
+        "tags": [
+          "stocks"
+        ],
         "size": "sm"
       }
     },
     {
       "name": "weather-sm-01",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/label.json",
@@ -1949,14 +2931,18 @@
         }
       ],
       "meta": {
-        "tags": ["weather"],
+        "tags": [
+          "weather"
+        ],
         "size": "sm"
       }
     },
     {
       "name": "weather-sm-02",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/label.json",
@@ -1971,14 +2957,18 @@
         }
       ],
       "meta": {
-        "tags": ["weather"],
+        "tags": [
+          "weather"
+        ],
         "size": "sm"
       }
     },
     {
       "name": "weather-sm-03",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/label.json",
@@ -1993,7 +2983,9 @@
         }
       ],
       "meta": {
-        "tags": ["weather"],
+        "tags": [
+          "weather"
+        ],
         "size": "sm"
       }
     },
@@ -2014,14 +3006,18 @@
         }
       ],
       "meta": {
-        "tags": ["weather"],
+        "tags": [
+          "weather"
+        ],
         "size": "sm"
       }
     },
     {
       "name": "weather-sm-05",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/label.json",
@@ -2036,14 +3032,18 @@
         }
       ],
       "meta": {
-        "tags": ["weather"],
+        "tags": [
+          "weather"
+        ],
         "size": "sm"
       }
     },
     {
       "name": "weather-sm-06",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/label.json",
@@ -2058,14 +3058,18 @@
         }
       ],
       "meta": {
-        "tags": ["weather"],
+        "tags": [
+          "weather"
+        ],
         "size": "sm"
       }
     },
     {
       "name": "weather-sm-07",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/label.json",
@@ -2080,14 +3084,18 @@
         }
       ],
       "meta": {
-        "tags": ["weather"],
+        "tags": [
+          "weather"
+        ],
         "size": "sm"
       }
     },
     {
       "name": "weather-sm-08",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/label.json",
@@ -2102,14 +3110,18 @@
         }
       ],
       "meta": {
-        "tags": ["weather"],
+        "tags": [
+          "weather"
+        ],
         "size": "sm"
       }
     },
     {
       "name": "weather-sm-09",
       "type": "registry:component",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "registryDependencies": [
         "https://wigggle-ui.vercel.app/r/widget.json",
         "https://wigggle-ui.vercel.app/r/label.json",
@@ -2124,7 +3136,9 @@
         }
       ],
       "meta": {
-        "tags": ["weather"],
+        "tags": [
+          "weather"
+        ],
         "size": "sm"
       }
     },
@@ -2146,7 +3160,9 @@
         }
       ],
       "meta": {
-        "tags": ["weather"],
+        "tags": [
+          "weather"
+        ],
         "size": "md"
       }
     },
@@ -2167,7 +3183,9 @@
         }
       ],
       "meta": {
-        "tags": ["weather"],
+        "tags": [
+          "weather"
+        ],
         "size": "md"
       }
     },
@@ -2194,7 +3212,9 @@
     {
       "name": "weather-utils",
       "type": "registry:lib",
-      "dependencies": ["lucide-react"],
+      "dependencies": [
+        "lucide-react"
+      ],
       "files": [
         {
           "path": "registry/default/lib/weather-utils.tsx",
